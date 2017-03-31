@@ -1,11 +1,11 @@
+
 from math import *
 
 #tests if a number is prime or not, if it
 #is then that number is returned else 0
 def testPrime(testCase):
 
-    #loop through all the numbers until you get to math.ceil(x/2)
-    betterTest = ceil(testCase/2)
+    betterTest = int(sqrt(testCase))
     for y in range(3, betterTest, 2):
         if (testCase % y) == 0:
             return 0
