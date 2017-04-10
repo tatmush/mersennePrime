@@ -1,11 +1,11 @@
 
 from math import *
 import time
-#tests if a number is prime or not, if it
-#is then that number is returned else 0
+
+#tests if a number is prime or not
 def testPrime(testCase):
 
-    #this algorithm works for all numbers above 3, 2 and 3 wont work here
+    #this algorithm works for all numbers above 3
     betterTest = int(sqrt(testCase))
     for y in range(3, betterTest, 2):
         if testPrime(y) != 0:
