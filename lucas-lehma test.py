@@ -1,9 +1,6 @@
 
-#lucas-lehma test
-#this is the best available primality test
-#[4, 14, 194] x**2 -1
-#we are testing if the n-1th term in the series is divisible by
-#by 2**n -1
+'''lucas-lehma test
+this is the best available primality test [4, 14, 194] x**2 -1. we are testing if the n-1th term in the series is divisible by 2**n -1 '''
 def isPrime(x):
     CONSTANT = 4
     for num in range(1, x-1):
