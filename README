@@ -1,4 +1,0 @@
-A Mersenne prime, Mi, is a prime number of the form Mi=2i−1.
-Each .py file searches for a mersenne prime up to a number N 
-but with a different alogorithm. An attempts are made to made
-to optimize the code.
